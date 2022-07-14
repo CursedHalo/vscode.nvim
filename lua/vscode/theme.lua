@@ -51,7 +51,7 @@ theme.load_syntax = function()
     TabLineSel = { c.vscFront, c.vscTabCurrent, 'none', nil },
     Title = { c.vscNone, c.vscNone, 'bold', nil },
     -- Visual = { c.vscNone, c.vscSelection, 'none', nil },
-    Visual = { c.vscNone, c.vscPurpleDark, 'none', nil },
+    Visual = { '#800080', c.Back, 'none', nil },
     VisualNOS = { c.vscNone, c.vscSelection, 'none', nil },
     WarningMsg = { c.vscRed, c.vscBack, 'bold', nil },
     WildMenu = { c.vscNone, c.vscSelection, 'none', nil },
@@ -459,7 +459,8 @@ theme.load_syntax = function()
 
 
     -- Custom Halo
-    Yank = { c.vscPurpleDark, '#FAF0AA', 'none', nil },
+    -- Yank = { "#800080", '#ffffff', 'none', nil },
+    Yank = { '#ffffff', '#800080', 'none', nil },
 
     -- BarBar
     BufferCurrent = { c.vscFront, c.vscTabCurrent, 'none', nil },
