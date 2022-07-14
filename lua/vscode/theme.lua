@@ -432,16 +432,17 @@ theme.load_syntax = function()
     -- NvimTreeOpenedFolderName = { nil, no_nvimtree_bg and c.vscCursorDarkDark or c.vscLeftDark, 'none', nil },
     -- NvimTreeOpenedFolderName = { '#0064c1', nil , 'none', "bold" },
     -- NvimTreeOpenedFile = { "#0064c1", nil , 'none', "bold" },
-    NvimTreeOpenedFolderName = { c.vscPurpleDark, nil, 'none', nil },
-    NvimTreeOpenedFile = { c.vscPurpleDark, nil, 'none', nil },
+    NvimTreeOpenedFolderName = { c.vscPink, nil, 'none', nil },
+    NvimTreeOpenedFile = { c.vscPink, nil, 'none', nil },
 
     -- Bufferline
     -- BufferLineFill = { nil, c.vscLeftDark, 'none', nil },
     -- BufferLineIndicatorSelected = {c.vscPurpleDark, nil, 'none', nil },
     BufferLineFill = { c.vscPurpleLight, c.Back, 'none', nil },
+    BufferlineBackground = { c.vscLineNumber, c.Back, 'none', nil },
 
     BufferLineBuffer = { c.vscPurpleLight, c.Back, 'none', nil },
-    BufferLineBufferSelected = { c.vscPurpleDark, c.Back, 'none', nil },
+    BufferLineBufferSelected = { c.vscPink, c.Back, 'none', nil },
     BufferLineBufferVisible = { c.vscPurpleLight, c.Back, 'none', nil },
     
     BufferLineIndicatorVisible = { c.vscPurpleDark, c.Back, 'none', nil },
