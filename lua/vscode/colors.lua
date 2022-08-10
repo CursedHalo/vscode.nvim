@@ -60,6 +60,7 @@ local generate = function()
       vscPink = '#C586C0',
       vscPurpleLight = '#d0a3ff',
       vscPurpleDark = '#ac50f2',
+      vscAlpha = '#C586C0',
     }
   else
     colors = {

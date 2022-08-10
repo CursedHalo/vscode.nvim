@@ -20,7 +20,7 @@ theme.load_syntax = function()
     DiffText = { nil, c.vscDiffRedLight, 'none', nil },
     EndOfBuffer = { c.vscBack, nil, 'none', nil },
     ErrorMsg = { c.vscRed, c.vscBack, 'none', nil },
-    VertSplit = { c.vscSplitDark, c.vscBack, 'none', nil },
+    VertSplit = { c.vscPurpleLight, c.vscNone, 'none', nil },
     Folded = { nil, c.vscFoldBackground, nil, nil },
     FoldColumn = { c.vscLineNumber, c.vscBack, 'none', nil },
     SignColumn = { nil, c.vscBack, 'none', nil },
@@ -453,7 +453,7 @@ theme.load_syntax = function()
     BufferLineBuffer = { c.vscPurpleLight, c.Back, 'none', nil },
     BufferLineBufferSelected = { c.vscPink, c.Back, 'none', nil },
     BufferLineBufferVisible = { c.vscPurpleLight, c.Back, 'none', nil },
-    
+
     BufferLineIndicatorVisible = { c.vscPurpleDark, c.Back, 'none', nil },
     BufferLineIndicatorSelected = { c.vscLeftDark, nil, 'none', nil },
 
@@ -543,7 +543,7 @@ theme.load_syntax = function()
   if isDark then
     -- syntax.NvimTreeFolderIcon = { c.vscBlue, nil, 'none', nil }
     -- syntax.NvimTreeFolderIcon = { c.vscPurpleDark, nil, 'none', nil }
-    syntax.NvimTreeFolderIcon = { c.vscPurpleLight ,nil, 'none', nil }
+    syntax.NvimTreeFolderIcon = { c.vscPurpleLight, nil, 'none', nil }
     syntax.NvimTreeIndentMarker = { c.vscLineNumber, nil, 'none', nil }
 
     syntax.LspFloatWinNormal = { c.vscFront, nil, 'none', nil }
@@ -564,12 +564,14 @@ theme.load_syntax = function()
     syntax.LspSagaRenameBorder = { c.vscLineNumber, nil, 'none', nil }
     syntax.LspSagaLspFinderBorder = { c.vscLineNumber, nil, 'none', nil }
 
-    syntax.TelescopePromptBorder = { c.vscLineNumber, nil, 'none', nil }
-    syntax.TelescopeResultsBorder = { c.vscLineNumber, nil, 'none', nil }
-    syntax.TelescopePreviewBorder = { c.vscLineNumber, nil, 'none', nil }
+    syntax.TelescopePromptBorder = { c.vscPurpleLight, nil, 'none', nil }
+    syntax.TelescopeResultsBorder = { c.vscPurpleLight, nil, 'none', nil }
+    syntax.TelescopePreviewBorder = { c.vscPurpleLight, nil, 'none', nil }
     syntax.TelescopeNormal = { c.vscFront, nil, 'none', nil }
-    syntax.TelescopeSelection = { c.vscFront, c.vscPopupHighlightBlue, 'none', nil }
-    syntax.TelescopeMultiSelection = { c.vscFront, c.vscPopupHighlightBlue, 'none', nil }
+    -- syntax.TelescopeSelection = { c.vscFront, c.vscPopupHighlightBlue, 'none', nil }
+    -- syntax.TelescopeMultiSelection = { c.vscFront, c.vscPopupHighlightBlue, 'none', nil }
+    syntax.TelescopeSelection = { c.vscFront, c.vscPurpleDark, 'none', nil }
+    syntax.TelescopeMultiSelection = { c.vscFront, c.vscPurpleDark, 'none', nil }
     syntax.TelescopeMatching = { c.vscMediumBlue, nil, 'bold', nil }
     syntax.TelescopePromptPrefix = { c.vscFront, nil, 'none', nil }
 
