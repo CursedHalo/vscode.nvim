@@ -28,7 +28,7 @@ theme.load_syntax = function()
     -- IncSearch = { '#262626', '#DDB6F2', 'bold', nil },
     -- IncSearch = { '#ffffff', c.vscPurpleLight, 'none', nil },
     -- IncSearch = { '#ffffff', '#800080', 'none', nil },
-    IncSearch = { '#800080', 'none', 'none', nil },
+    IncSearch = { c.vscMagenta, 'none', 'none', nil },
     LineNr = { c.vscLineNumber, c.vscBack, 'none', nil },
     CursorLineNr = { c.vscPopupFront, c.vscBack, 'none', nil },
     MatchParen = { c.vscNone, c.vscCursorDark, 'none', nil },
@@ -51,7 +51,7 @@ theme.load_syntax = function()
     -- Search = { '#262626', '#DDB6F2', 'bold', nil },
     -- Search = { '#ffffff', '#800080', 'bold', nil },
     -- Search = { '#ffffff', c.vscPurpleLight, 'none', nil },
-    Search = { '#800080', 'none', 'bold', nil },
+    Search = { c.vscMagenta, 'none', 'bold', nil },
     SpecialKey = { c.vscBlue, c.vscNone, 'none', nil },
     StatusLine = { c.vscFront, c.vscLeftMid, 'none', nil },
     StatusLineNC = { c.vscFront, c.vscLeftDark, 'none', nil },
@@ -568,11 +568,14 @@ theme.load_syntax = function()
     syntax.TelescopeResultsBorder = { c.vscPurpleLight, nil, 'none', nil }
     syntax.TelescopePreviewBorder = { c.vscPurpleLight, nil, 'none', nil }
     syntax.TelescopeNormal = { c.vscFront, nil, 'none', nil }
-    -- syntax.TelescopeSelection = { c.vscFront, c.vscPopupHighlightBlue, 'none', nil }
-    -- syntax.TelescopeMultiSelection = { c.vscFront, c.vscPopupHighlightBlue, 'none', nil }
-    syntax.TelescopeSelection = { c.vscFront, c.vscPurpleDark, 'none', nil }
-    syntax.TelescopeMultiSelection = { c.vscFront, c.vscPurpleDark, 'none', nil }
+    syntax.TelescopeSelection = { c.vscFront, c.vscPopupHighlightBlue, 'none', nil }
+    syntax.TelescopeMultiSelection = { c.vscFront, c.vscPopupHighlightBlue, 'none', nil }
     syntax.TelescopeMatching = { c.vscMediumBlue, nil, 'bold', nil }
+
+    -- syntax.TelescopeSelection = { c.vscFront, c.vscPurpleDark, 'none', nil }
+    -- syntax.TelescopeMultiSelection = { c.vscFront, c.vscPurpleDark, 'none', nil }
+    -- syntax.TelescopeMatching = { c.vscMagenta, nil, 'bold', nil }
+
     syntax.TelescopePromptPrefix = { c.vscFront, nil, 'none', nil }
 
     -- symbols-outline

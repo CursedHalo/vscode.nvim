@@ -58,9 +58,10 @@ local generate = function()
       vscYellowOrange = '#D7BA7D',
       vscYellow = '#DCDCAA',
       vscPink = '#C586C0',
+      vscAlpha = '#C586C0',
       vscPurpleLight = '#d0a3ff',
       vscPurpleDark = '#ac50f2',
-      vscAlpha = '#C586C0',
+      vscMagenta = '#800080',
     }
   else
     colors = {
